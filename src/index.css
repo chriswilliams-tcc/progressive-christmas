@@ -1,0 +1,21 @@
+html, body{
+  height: 100%;
+}
+body {
+  background-image: url(paul-itkin-46110.jpg) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+}
+div, body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "header": "Friday 1st",
+    "description": "Dressing the Tree",
+    "status": "open",
+    "bsStyle": "default"
+  },
+  {
+    "header": "Monday 4th",
+    "description": "Chocolate/Sweet Day",
+    "status": "open",
+    "bsStyle": "default"
+  },
+  {
+    "header": "Tuesday 5th",
+    "description": "Christmas Socks Day",
+    "status": "open",
+    "bsStyle": "default"
+  },
+  {
+    "header": "Wednesday 6th",
+    "description": "Christmas Craft Day",
+    "status": "open",
+    "bsStyle": "default"
+  },
+  {
+    "header": "Thursday 7th",
+    "description": "Christmas Cracker Day",
+    "status": "open",
+    "bsStyle": "default"
+  },
+  {
+    "header": "Friday 8th",
+    "description": "Mulled Wine Day",
+    "status": "open",
+    "bsStyle": "default"
+  },
+  {
+    "header": "Monday 11th",
+    "description": "Mince Pie Day",
+    "status": "open",
+    "bsStyle": "default"
+  },
+  {
+    "header": "Tuesday 12th",
+    "description": "Bauble Hunt",
+    "status": "open",
+    "bsStyle": "default"
+  },
+  {
+    "header": "Wednesday 13th",
+    "description": "Christmas Jumper Day",
+    "status": "open",
+    "bsStyle": "default"
+  },
+  {
+    "header": "Thursday 14th",
+    "description": "Christmas Quiz",
+    "status": "open",
+    "bsStyle": "default"
+  },
+  {
+    "header": "Friday 15th",
+    "description": "Secret Santa and Christmas Party!!!",
+    "status": "open",
+    "bsStyle": "success"
+  }
+]
