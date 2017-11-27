@@ -4,6 +4,7 @@ import {Grid, Row, Col, Panel} from 'react-bootstrap';
 import DayItem from './dayitem.js';
 import days from './data/nov.json';
 import Countdown from './countdown.js'
+import Logo from './assets/logo.svg'
 
 class App extends Component {
   render() {
@@ -13,8 +14,12 @@ class App extends Component {
 
         <Row>
           <Col md={10} mdOffset={1}>
-            <Panel style={{textAlign:'center'}}>
-              Progressive Content 11 Days of Christmas 2017
+            <Panel>
+              <Row>
+                <Col md={12}>
+                  <h1 style={{margin: 0, padding: 0, textAlign: 'center'}}>11 Days of Christmas 2017</h1>
+                </Col>
+              </Row>
             </Panel>
           </Col>
         </Row>
