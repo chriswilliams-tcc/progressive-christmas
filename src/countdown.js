@@ -48,7 +48,25 @@ class Countdown extends Component {
       <Row>
         <Col md={10} mdOffset={1}>
           <Panel style={{textAlign:'center'}}>
-            {this.state.daysLeft} days, {this.state.HoursLeft} hours, {this.state.MinutesLeft} minutes and {this.state.SecondsLeft} seconds until Xmas
+            <div className="counter">
+              <div className="countertop">{this.state.daysLeft}</div>
+              <div className="counterbottom">days</div>
+            </div>
+
+            <div className="counter">
+              <div className="countertop">{this.state.HoursLeft}</div>
+              <div className="counterbottom">hours</div>
+            </div>
+
+            <div className="counter">
+              <div className="countertop">{this.state.MinutesLeft}</div>
+              <div className="counterbottom">minutes</div>
+            </div>
+
+            <div className="counter">
+              <div className="countertop">{this.state.SecondsLeft}</div>
+              <div className="counterbottom">seconds</div>
+            </div>
           </Panel>
         </Col>
       </Row>
