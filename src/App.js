@@ -34,17 +34,6 @@ class App extends Component {
 
         <Countdown />
 
-        <Row>
-          <Col md={10} mdOffset={1}>
-            <Panel className="extraLink">
-              <img src={Survive} alt="Will you survive the Holidays?" />
-              <h2>Will you survive the Holidays?</h2>
-              <p>This isn't a season for the faint of heart.</p>
-              <Button href="http://m.zimbio.com/quiz/jousAtLL4ky/Will+You+Survive+the+Holidays" target="newbrowserwindow">Start</Button>
-            </Panel>
-          </Col>
-        </Row>
-
         {/*
           <Row>
             <Col md={10} mdOffset={1}>
