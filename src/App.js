@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Snow from 'react-snow-effect';
 import {Grid, Row, Col, Panel, Button, Glyphicon} from 'react-bootstrap';
 import DayItem from './dayitem.js';
-import days from './data/nov.json';
+import days from './data/dec-1st.json';
 import Countdown from './countdown.js'
 import Logo from './assets/logo.png'
 import Survive from './assets/survive.jpg'
