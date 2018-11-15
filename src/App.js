@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import Snow from 'react-snow-effect';
-import {Grid, Row, Col, Panel, Button, Glyphicon} from 'react-bootstrap';
+import {Grid, Row, Col, Panel, Button, Glyphicon } from 'react-bootstrap';
+import {bootstrapUtils} from 'react-bootstrap/lib/utils/bootstrapUtils';
 import DayItem from './dayitem.js';
-import days from './data/dec-1st.json';
+import days from './data/master-data.json';
 import Countdown from './countdown.js'
 import Logo from './assets/logo.png'
 import Survive from './assets/survive.jpg'
 import Akinator from './assets/akinator.png'
+import moment from 'moment';
 
 class App extends Component {
   render() {
+
+    let now = moment().format('YYYY-MM-DD');
+
     return (
       <Grid style={{paddingTop: '30px'}}>
         <Snow />
@@ -22,10 +27,10 @@ class App extends Component {
 
         <Row>
           <Col md={10} mdOffset={1}>
-            <Panel>
+            <Panel style={{backgroundColor: 'red', borderColor:'red', color: 'white'}}>
               <Row>
                 <Col md={12}>
-                  <h1 style={{margin: 0, padding: 0, textAlign: 'center'}}>11 Days of Christmas 2017</h1>
+                  <h1 style={{margin: 0, padding: 0, textAlign: 'center'}}>{Object.keys(days).length} Days of Christmas 2018</h1>
                 </Col>
               </Row>
             </Panel>
@@ -59,7 +64,7 @@ class App extends Component {
         */}
 
         <Row>
-          {days.map((item, count) => {return <DayItem key={count} item={item} itempos={count} />})}
+          {days.map((item, count) => {return <DayItem key={count} item={item} itempos={count} today={now}/>})}
         </Row>
 
       </Grid>

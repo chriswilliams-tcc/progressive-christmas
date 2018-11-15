@@ -23,16 +23,16 @@ class Countdown extends Component {
   updateTimer () {
     let currentMoment = moment();
 
-    let daysLeft = moment('2017-12-25 00:00:00').diff(currentMoment, 'days')
+    let daysLeft = moment('2018-12-25 00:00:00').diff(currentMoment, 'days')
     currentMoment.add(daysLeft,'days')
 
-    let HoursLeft = moment('2017-12-25 00:00:00').diff(currentMoment, 'hours')
+    let HoursLeft = moment('2018-12-25 00:00:00').diff(currentMoment, 'hours')
     currentMoment.add(HoursLeft,'hours')
 
-    let MinutesLeft = moment('2017-12-25 00:00:00').diff(currentMoment, 'minutes')
+    let MinutesLeft = moment('2018-12-25 00:00:00').diff(currentMoment, 'minutes')
     currentMoment.add(MinutesLeft,'minutes')
 
-    let SecondsLeft = moment('2017-12-25 00:00:00').diff(currentMoment, 'seconds')
+    let SecondsLeft = moment('2018-12-25 00:00:00').diff(currentMoment, 'seconds')
     currentMoment.add(MinutesLeft,'seconds')
 
     this.setState({

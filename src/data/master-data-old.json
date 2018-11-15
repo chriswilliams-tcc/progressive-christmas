@@ -8,7 +8,7 @@
   {
     "header": "Monday 4th",
     "description": "Bake-n-bring",
-    "status": "open",
+    "status": "closed",
     "bsStyle": "default"
   },
   {
@@ -20,30 +20,30 @@
   {
     "header": "Wednesday 6th",
     "description": "Christmas Craft Day",
-    "status": "open",
-    "bsStyle": "success"
+    "status": "closed",
+    "bsStyle": "default"
   },
   {
     "header": "Thursday 7th",
-    "description": "This is currently a suprise. Please check back later :)",
+    "description": "Christmas Cracker Day",
     "status": "closed",
     "bsStyle": "default"
   },
   {
     "header": "Friday 8th",
-    "description": "This is currently a suprise. Please check back later :)",
+    "description": "Mulled Wine Day",
     "status": "closed",
     "bsStyle": "default"
   },
   {
     "header": "Monday 11th",
-    "description": "This is currently a suprise. Please check back later :)",
+    "description": "Mince Pie Day",
     "status": "closed",
     "bsStyle": "default"
   },
   {
     "header": "Tuesday 12th",
-    "description": "This is currently a suprise. Please check back later :)",
+    "description": "Bauble Hunt",
     "status": "closed",
     "bsStyle": "default"
   },
@@ -55,7 +55,7 @@
   },
   {
     "header": "Thursday 14th",
-    "description": "This is currently a suprise. Please check back later :)",
+    "description": "Christmas Quiz",
     "status": "closed",
     "bsStyle": "default"
   },

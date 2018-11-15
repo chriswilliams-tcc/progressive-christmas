@@ -1,68 +1,86 @@
 [
   {
-    "header": "Friday 1st",
+    "header": "2018-12-06",
     "description": "Dressing the Tree",
     "status": "open",
-    "bsStyle": "default"
+    "bsStyle": "success",
+    "show_message_before_days": "0"
   },
   {
-    "header": "Monday 4th",
-    "description": "Bake-n-bring",
-    "status": "closed",
-    "bsStyle": "default"
-  },
-  {
-    "header": "Tuesday 5th",
-    "description": "Christmas Socks Day",
-    "status": "open",
-    "bsStyle": "default"
-  },
-  {
-    "header": "Wednesday 6th",
-    "description": "Christmas Craft Day",
-    "status": "closed",
-    "bsStyle": "default"
-  },
-  {
-    "header": "Thursday 7th",
-    "description": "Christmas Cracker Day",
-    "status": "closed",
-    "bsStyle": "default"
-  },
-  {
-    "header": "Friday 8th",
+    "header": "2018-12-07",
     "description": "Mulled Wine Day",
-    "status": "closed",
-    "bsStyle": "default"
-  },
-  {
-    "header": "Monday 11th",
-    "description": "Mince Pie Day",
-    "status": "closed",
-    "bsStyle": "default"
-  },
-  {
-    "header": "Tuesday 12th",
-    "description": "Bauble Hunt",
-    "status": "closed",
-    "bsStyle": "default"
-  },
-  {
-    "header": "Wednesday 13th",
-    "description": "Christmas Jumper Day",
     "status": "open",
-    "bsStyle": "default"
+    "bsStyle": "default",
+    "show_message_before_days": "0"
   },
   {
-    "header": "Thursday 14th",
+    "header": "2018-12-10",
+    "description": "Bake sale",
+    "status": "open",
+    "bsStyle": "default",
+    "show_message_before_days": "0"
+  },
+  {
+    "header": "2018-12-11",
+    "description": "Charity Christmas Gifts",
+    "status": "closed",
+    "bsStyle": "default",
+    "show_message_before_days": "1"
+  },
+  {
+    "header": "2018-12-12",
+    "description": "Christmas Party!",
+    "status": "open",
+    "bsStyle": "default",
+    "show_message_before_days": "1"
+  },
+  {
+    "header": "2018-12-13",
+    "description": "Mince Pie day",
+    "status": "closed",
+    "bsStyle": "default",
+    "show_message_before_days": "1"
+  },
+  {
+    "header": "2018-12-14",
+    "description": "Christmas Jumper Day",
+    "status": "closed",
+    "bsStyle": "default",
+    "show_message_before_days": "1"
+  },
+  {
+    "header": "2018-12-17",
+    "description": "Bauble hunt",
+    "status": "closed",
+    "bsStyle": "default",
+    "show_message_before_days": "2"
+  },
+  {
+    "header": "2018-12-18",
+    "description": "Christmas socks day",
+    "status": "closed",
+    "bsStyle": "default",
+    "show_message_before_days": "1"
+  },
+  {
+    "header": "2018-12-19",
+    "description": "Chocolates",
+    "status": "closed",
+    "bsStyle": "default",
+    "show_message_before_days": "1"
+  },
+  {
+    "header": "2018-12-20",
+    "description": "Crackers",
+    "status": "closed",
+    "bsStyle": "default",
+    "show_message_before_days": "1"
+  },
+  {
+    "header": "2018-12-21",
     "description": "Christmas Quiz",
     "status": "closed",
-    "bsStyle": "default"
-  },
-  {
-    "header": "Friday 15th",
-    "description": "Secret Santa and Christmas Party!!!",
-    "status": "open",
-    "bsStyle": "default"
+    "bsStyle": "default",
+    "show_message_before_days": "2"
   }
 ]
